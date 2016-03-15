@@ -16,9 +16,9 @@ def buscar_video():
 
 master = Tk()
 
-w = Scale(master, from_=10, to=100, orient=HORIZONTAL)
+w = Scale(master, from_=10, to=100, orient=HORIZONTAL, length = 300, width=50)
 w.set(100)
-w.config(borderwidth=9)
+w.config(borderwidth=1)
 w.pack()
 
 def change_brilho():
